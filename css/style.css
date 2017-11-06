@@ -87,6 +87,11 @@ HEADER
     cursor: pointer;
 }
 
+.filter_choose {
+    background-color: #1097c3;
+    color: #fff;
+}
+
 /*----------------------------------
 MAIN CONTENT
 ----------------------------------*/
@@ -114,7 +119,7 @@ MAIN CONTENT
 }
 
 .main_content {
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 .person_content {
@@ -139,6 +144,7 @@ MAIN CONTENT
     line-height: 36px;
     width: 32%;
 }
+
 .persons_name {
     font-size: 30px;
     font-weight: bold;
@@ -193,4 +199,7 @@ span.location_details {
     top: 3px !important;
     color: #929292;
     cursor: pointer;
+}
+.persons_contacts_details_toggle {
+    font-size: 25px !important;
 }
