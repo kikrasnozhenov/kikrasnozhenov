@@ -23,7 +23,7 @@ HEADER
 ---------------------------*/
 
 .header_content {
-    padding: 30px 20px 15px;
+    padding: 30px 20px 1px;
 }
 
 .header_title {
@@ -38,6 +38,10 @@ HEADER
 .header_form {
     font-size: 23px !important;
     height: 47px !important;
+    padding: 6px 18px !important;
+}
+.scnd_filter_container {
+    margin-bottom: 11px;
 }
 .input_zone .glyphicon {
     position: absolute;
@@ -45,7 +49,8 @@ HEADER
     pointer-events: none;
 }
 .right_addon .glyphicon {
-    right: 0px;
+    right: 0;
+    top: 43px;
     color: #aeaeae;
 }
 
@@ -53,13 +58,13 @@ HEADER
     border: 1px solid #aeaeae;
     border-radius: 5px;
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 22px;
 
 }
 .filter_item {
     border-left: 1px solid #aeaeae;
     display: inline-block;
-    padding: 6px 20px;
+    padding: 4px 20px;
     font-size: 16px;
     box-sizing: border-box;
     min-width: 137px;
@@ -88,7 +93,8 @@ MAIN CONTENT
 .result_content {
     border-top: 1px solid #f4f4f4;
     border-bottom: 1px solid #f4f4f4;
-    padding: 15px 20px;
+    padding: 16px 20px;
+    font-size:  19px;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
@@ -112,7 +118,7 @@ MAIN CONTENT
 }
 
 .person_content {
-    padding: 0px 20px 35px 50px;
+    padding: 3px 20px 28px 50px;
     margin-bottom: 20px;
     border-bottom: 1px solid #f4f4f4;
 }
@@ -129,16 +135,16 @@ MAIN CONTENT
 .person_info {
     display: inline-block;
     vertical-align: middle;
-    padding-left: 20px;
-    line-height: 32px;
-    width: 30%;
+    padding-left: 27px;
+    line-height: 36px;
+    width: 32%;
 }
 .persons_name {
-    font-size: 22px;
+    font-size: 30px;
     font-weight: bold;
 }
 .persons_position {
-    font-size: 18px;
+    font-size: 24px;
 }
 .persons_location {
     display: inline-block;
@@ -146,20 +152,21 @@ MAIN CONTENT
 }
 .persons_location_floor {
     display: inline-block;
-    padding-left: 10px;
-    font-size: 11px;
+    padding-left: 13px;
+    font-size: 15px;
     color: #929292;
 }
 span.location_details {
     color: #000;
     border-bottom: 1px dashed #000080;
+    font-size: 18px;
 }
 
 .local_info {
     display: inline-block;
-    width: 30%;
-    line-height: 30px;
-    margin-left: 30px;
+    width: 20%;
+    margin-left: 93px;
+    font-size: 19px;
 }
 .local_info_title {
     font-size: 11px;
