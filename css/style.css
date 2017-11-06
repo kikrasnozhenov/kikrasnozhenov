@@ -64,10 +64,10 @@ HEADER
 .filter_item {
     border-left: 1px solid #aeaeae;
     display: inline-block;
-    padding: 4px 20px;
+    padding: 4px 41px;
     font-size: 16px;
     box-sizing: border-box;
-    min-width: 137px;
+    min-width: 147px;
     text-align: center;
     cursor: pointer;
 }
@@ -110,9 +110,8 @@ MAIN CONTENT
     background-color: #7ad484;
     border-radius: 5px;
     border: 1px solid #3e9953;
-    padding: 0px 20px;
     font-size: 13px;
-    padding: 4px 15px;
+    padding: 4px 32px;
     color: #fff;
 }
 .btn_text {
@@ -124,8 +123,8 @@ MAIN CONTENT
 }
 
 .person_content {
-    padding: 3px 20px 28px 50px;
-    margin-bottom: 20px;
+    padding: 0px 0px 24px 50px;
+    margin-bottom: 18px;
     border-bottom: 1px solid #f4f4f4;
 }
 .persons_photo {
@@ -142,8 +141,8 @@ MAIN CONTENT
     display: inline-block;
     vertical-align: middle;
     padding-left: 27px;
-    line-height: 36px;
-    width: 32%;
+    line-height: 39px;
+    width: 33%;
 }
 
 .persons_name {
@@ -172,11 +171,11 @@ span.location_details {
 .local_info {
     display: inline-block;
     width: 20%;
-    margin-left: 93px;
+    margin-left: 60px;
     font-size: 19px;
 }
 .local_info_title {
-    font-size: 11px;
+    font-size: 14px;
     color: #929292;
 }
 
@@ -197,10 +196,36 @@ span.location_details {
     float: right;
     position: absolute !important;
     right: 0;
+    z-index: 7777;
     top: 3px !important;
     color: #929292;
     cursor: pointer;
 }
-.persons_contacts_details_toggle {
-    font-size: 25px !important;
+
+.tooltip-inner{
+    background-color: transparent !important;
+    color: #000;
+}
+
+.drop_content {
+    display: none;
+}
+
+.show {
+    z-index: 44;
+    position: absolute;
+    top: -7px;
+    right: -10px;
+    padding: 20px;
+    box-sizing: border-box;
+    min-width: 120px;
+    background-color: #fff;
+    box-shadow: 1px 2px 14px 1px #afafaf;
+}
+.nav_item {
+    margin-bottom: 10px;
+}
+.nav_item:lastchild {
+    color: red;
+    border-top: 1px solid #929292;
 }
