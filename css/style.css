@@ -4,7 +4,7 @@
 }
 
 body {
-    max-width: 1280px;
+    max-width: 1024px;
     min-width: 1024px;
     margin: auto !important;
 }
@@ -29,6 +29,7 @@ HEADER
 .header_title {
     font-size: 32px;
     padding-top: 8px;
+    cursor: pointer;
 }
 
 .input_zone {
@@ -64,10 +65,10 @@ HEADER
 .filter_item {
     border-left: 1px solid #aeaeae;
     display: inline-block;
-    padding: 4px 41px;
+    padding: 4px 0px;
     font-size: 16px;
     box-sizing: border-box;
-    min-width: 147px;
+    min-width: 150px;
     text-align: center;
     cursor: pointer;
 }
@@ -225,7 +226,60 @@ span.location_details {
 .nav_item {
     margin-bottom: 10px;
 }
-.nav_item:lastchild {
-    color: red;
-    border-top: 1px solid #929292;
+.nav_item_remove {
+    color: #b95b5b;
+}
+
+/*-----------------------------------------
+Hint
+-----------------------------------------*/
+a.tooltips {
+  position: relative;
+  display: inline;
+  color: #000;
+}
+a.tooltips div {
+  position: absolute;
+  font-size: 17px;
+  width:200px;
+  color: #333333;
+  background: #FFFFFF;
+  border: 2px solid #DBDBDB;
+  height: 100px;
+  line-height: 25px;
+  text-align: left;
+  visibility: hidden;
+  border-radius: 6px;
+  padding: 10px;
+}
+a.tooltips div:before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -12px;
+  width: 0; height: 0;
+  border-top: 12px solid #DBDBDB;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+}
+a.tooltips div:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0; height: 0;
+  border-top: 8px solid #FFFFFF;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+a:hover.tooltips div {
+  visibility: visible;
+  opacity: 1;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -76px;
+  z-index: 999;
+  transition: 0.4s;
 }

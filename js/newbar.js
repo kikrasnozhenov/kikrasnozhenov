@@ -1,20 +1,11 @@
-// $(document).ready(function () {
-   
-//     $('div.glyphicon').click(function() {
-//         $(this).toggleClass('show');
-//     });
-// });
 
+/* ONLY FOR a 4th PERSON (as in task) :)..used without getelementsbyclassname*/
 
-var open = document.getElementById('bar_btn'),
+var open = document.getElementById('pers_contacts_bar'),
     dropContent = document.getElementById('dropContent');
 
+
 open.addEventListener('click', function(){
+    var open = document.getElementById('pers_contacts_bar')
     dropContent.classList.toggle("show");
 });
-
-// document.addEventListener('click', function(e){
-//     if (!e.target.matches('.drop_content')) {
-//         dropContent.classList.remove('show');
-//       }
-// });
