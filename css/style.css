@@ -235,12 +235,12 @@ span.location_details {
 /*-----------------------------------------
 Hint
 -----------------------------------------*/
-nav.tooltips {
+a.tooltips {
   position: relative;
   display: inline;
   color: #000;
 }
-nav.tooltips div {
+a.tooltips div {
   position: absolute;
   font-size: 17px;
   width:200px;
@@ -254,7 +254,7 @@ nav.tooltips div {
   border-radius: 6px;
   padding: 10px;
 }
-nav.tooltips div:before {
+a.tooltips div:before {
   content: '';
   position: absolute;
   top: 100%;
@@ -265,7 +265,7 @@ nav.tooltips div:before {
   border-right: 12px solid transparent;
   border-left: 12px solid transparent;
 }
-nav.tooltips div:after {
+a.tooltips div:after {
   content: '';
   position: absolute;
   top: 100%;
@@ -276,7 +276,7 @@ nav.tooltips div:after {
   border-right: 8px solid transparent;
   border-left: 8px solid transparent;
 }
-nav:hover.tooltips div {
+a:hover.tooltips div {
   visibility: visible;
   opacity: 1;
   bottom: 30px;
