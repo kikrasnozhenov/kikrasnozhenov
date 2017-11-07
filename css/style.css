@@ -5,7 +5,7 @@
 
 body {
     max-width: 1024px;
-    min-width: 1024px;
+    min-width: 860px;
     margin: auto !important;
 }
 
@@ -225,20 +225,22 @@ span.location_details {
 }
 .nav_item {
     margin-bottom: 10px;
+    cursor: pointer;
 }
 .nav_item_remove {
     color: #b95b5b;
+    cursor: pointer;
 }
 
 /*-----------------------------------------
 Hint
 -----------------------------------------*/
-a.tooltips {
+span.tooltips {
   position: relative;
   display: inline;
   color: #000;
 }
-a.tooltips div {
+span.tooltips div {
   position: absolute;
   font-size: 17px;
   width:200px;
@@ -252,7 +254,7 @@ a.tooltips div {
   border-radius: 6px;
   padding: 10px;
 }
-a.tooltips div:before {
+span.tooltips div:before {
   content: '';
   position: absolute;
   top: 100%;
@@ -263,7 +265,7 @@ a.tooltips div:before {
   border-right: 12px solid transparent;
   border-left: 12px solid transparent;
 }
-a.tooltips div:after {
+span.tooltips div:after {
   content: '';
   position: absolute;
   top: 100%;
@@ -274,7 +276,7 @@ a.tooltips div:after {
   border-right: 8px solid transparent;
   border-left: 8px solid transparent;
 }
-a:hover.tooltips div {
+span:hover.tooltips div {
   visibility: visible;
   opacity: 1;
   bottom: 30px;
