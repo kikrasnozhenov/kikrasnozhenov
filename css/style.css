@@ -52,11 +52,11 @@ HEADER
 .right_addon .glyphicon {
     right: 0;
     top: 43px;
-    color: #aeaeae;
+    color: #C4C4C4;
 }
 
 .filter_search_btns {
-    border: 1px solid #aeaeae;
+    border: 1px solid #828282;
     border-radius: 5px;
     display: inline-block;
     margin-bottom: 22px;
@@ -89,7 +89,7 @@ HEADER
 }
 
 .filter_choose {
-    background-color: #1097c3;
+    background-color: #2D9CDB;
     color: #fff;
 }
 
@@ -108,9 +108,9 @@ MAIN CONTENT
 }
 
 .btn_info {
-    background-color: #7ad484;
+    background-color: #6FCF97;
     border-radius: 5px;
-    border: 1px solid #3e9953;
+    border: 1px solid #219653;
     font-size: 13px;
     padding: 4px 32px;
     color: #fff;
@@ -209,7 +209,7 @@ span.location_details {
     right: 20px;
     z-index: 7777;
     top: 3px !important;
-    color: #929292;
+    color: #C4C4C4;
     cursor: pointer;
 }
 
@@ -245,7 +245,7 @@ span.location_details {
 }
 .nav_item_remove {
     color: #b95b5b;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #F2F2F2;
     cursor: pointer;
     padding: 12px 20px;
     margin-top: 10px;
