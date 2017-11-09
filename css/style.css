@@ -208,11 +208,8 @@ span.location_details {
     color: #000;
 }
 
-.drop_content {
+.hide {
     display: none;
-}
-
-.show {
     z-index: 44;
     position: absolute;
     top: -7px;
@@ -223,6 +220,7 @@ span.location_details {
     background-color: #fff;
     box-shadow: 1px 2px 14px 1px #afafaf;
 }
+
 .nav_item {
     margin-bottom: 10px;
     cursor: pointer;

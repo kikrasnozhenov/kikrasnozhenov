@@ -1,11 +1,14 @@
+var hidden = document.getElementsByClassName("hide")[0];
+var el = document.getElementsByClassName("persons_contacts_details");
 
-/* ONLY FOR a 4th PERSON (as in task) :)..used without getelementsbyclassname*/
+function toggle() {
+  if (hidden.style.display === "none") {
+    hidden.style.display = "block";
+  } else {
+    hidden.style.display = "none";
+  }
+}
 
-var open = document.getElementById('pers_contacts_bar'),
-    dropContent = document.getElementById('dropContent');
-
-
-open.addEventListener('click', function(){
-    var open = document.getElementById('pers_contacts_bar')
-    dropContent.classList.toggle("show");
-});
+for (var i = 0; i < el.length; i++) {
+    el[i].addEventListener("click", toggle, false);
+}
