@@ -114,6 +114,11 @@ MAIN CONTENT
     font-size: 13px;
     padding: 4px 32px;
     color: #fff;
+    transition: 0.4s;
+}
+.btn_info:hover {
+    transform: scale(1.07, 1.07);
+    transition: 0.4s;
 }
 .btn_text {
     font-size: 11px !important;
