@@ -1,14 +1,12 @@
-var hidden = document.getElementsByClassName("hide")[0];
-var el = document.getElementsByClassName("persons_contacts_details");
+var btn = document.querySelectorAll(".persons_contacts_details");
+var el = document.querySelectorAll(".hide");
 
-function toggle() {
-  if (hidden.style.display === "none") {
-    hidden.style.display = "block";
-  } else {
-    hidden.style.display = "none";
-  }
-}
+Array.prototype.forEach.call(btn, function(element, index){
 
-for (var i = 0; i < el.length; i++) {
-    el[i].addEventListener("click", toggle, false);
+    element.addEventListener("click", toggleViewFunc.bind(element, index), false);
+});
+
+function toggleViewFunc(index){
+
+    el[index].classList.toggle("show");
 }

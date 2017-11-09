@@ -208,37 +208,43 @@ span.location_details {
     color: #000;
 }
 
-.hide {
-    display: none;
+.drop_menu {
     z-index: 44;
     position: absolute;
     top: -7px;
     right: -10px;
-    padding: 20px;
     box-sizing: border-box;
     min-width: 120px;
     background-color: #fff;
-    box-shadow: 1px 2px 14px 1px #afafaf;
+    box-shadow: 0px 2px 14px 2px #bfbfbf;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block !important;
 }
 
 .nav_item {
-    margin-bottom: 10px;
     cursor: pointer;
+    padding: 12px 20px;
 }
 .nav_item_remove {
     color: #b95b5b;
+    border-top: 1px solid #929292;
     cursor: pointer;
+    padding: 13px 20px;
 }
 
 /*-----------------------------------------
 Hint
 -----------------------------------------*/
-a.tooltips {
+span.tooltips {
   position: relative;
   display: inline;
   color: #000;
 }
-a.tooltips div {
+span.tooltips div {
   position: absolute;
   font-size: 17px;
   width:200px;
@@ -252,7 +258,7 @@ a.tooltips div {
   border-radius: 6px;
   padding: 10px;
 }
-a.tooltips div:before {
+span.tooltips div:before {
   content: '';
   position: absolute;
   top: 100%;
@@ -263,7 +269,7 @@ a.tooltips div:before {
   border-right: 12px solid transparent;
   border-left: 12px solid transparent;
 }
-a.tooltips div:after {
+span.tooltips div:after {
   content: '';
   position: absolute;
   top: 100%;
@@ -274,7 +280,7 @@ a.tooltips div:after {
   border-right: 8px solid transparent;
   border-left: 8px solid transparent;
 }
-a:hover.tooltips div {
+span:hover.tooltips div {
   visibility: visible;
   opacity: 1;
   bottom: 30px;
